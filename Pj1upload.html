@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Upload</title>
+  <link rel="stylesheet" href="css/Pj1footer.css" media="screen" title="no title">
+  <link rel="stylesheet" href="css/Pj1nav.css" media="screen" title="no title">
+  <link href="css/Pj1upload.css" rel="stylesheet">
+  <script src="jquery-3.2.0.min.js"></script>
+  <script src="js/Pjnav.js"></script>
+  <script src="js/Pj1upload.js"></script>
+</head>
+
+<body>
+  <nav id="head-nav">
+    <img src="img/logo.png" alt="hhh" />
+    <ul>
+      <li><a href="Pj1homepage.html">首页</a></li>
+      <li><a href="Pj1browse.html">浏览</a></li>
+      <li><a href="Pj1search.html">搜索</a></li>
+    </ul>
+    <div id="account">我的账户▼
+      <div id="my-account">
+        <a href="Pj1upload.html">上传图片</a>
+        <a href="Pj1self-photo.html">我的图片</a>
+        <a href="Pj1favorite.html">我的收藏</a>
+        <a href="Pj1home-unlogin.html">退出登录</a>
+      </div>
+    </div>
+  </nav>
+  <form class="" action="Pj1self-photo.html" method="post">
+    <table>
+      <tr>
+        <td class="name"><label for="">选择图片:</label></td>
+        <td class="input"><input type="file" name="name" value=""></td>
+      </tr>
+      <tr>
+        <td class="name"><label for="">图片标题:</label></td>
+        <td class="input"><input type="text" name="name" value="" placeholder="在此填写图片标题"></td>
+      </tr>
+      <tr>
+        <td class="name"><label for="">图片描述:</label></td>
+        <td class="input"><textarea name="description" rows="3" cols="40" placeholder="在此填写图片描述"></textarea></td>
+        <tr>
+          <td class="name"><label for="">选择大洲:</label></td>
+          <td class="input"><input type="text" name="continent" value="" placeholder="填写大洲"></td>
+        </tr>
+        <tr>
+          <td class="name"><label for="">选择国家:</label></td>
+          <td class="input"><input type="text" name="country" value="" placeholder="填写国家"></td>
+        </tr>
+        <tr>
+          <td class="name"><label for="">选择城市:</label></td>
+          <td class="input"><input type="text" name="city" value="" placeholder="填写城市"></td>
+        </tr>
+        <tr>
+          <td class="name"><label for="">位置信息:</label></td>
+          <td class="input">
+            <input type="number" name="name" value="" placeholder="经度">
+            <input type="number" name="name" value="" placeholder="纬度">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" name="name" value="确认上传">
+          </td>
+        </tr>
+    </table>
+  </form>
+</body>
+<footer>
+  <a href="#">Back To Top</a><br> FGStudio版权所有
+  <br> Copyright (c) 2016 Copyright Holder All Rights Reserved.
+</footer>
+
+</html>

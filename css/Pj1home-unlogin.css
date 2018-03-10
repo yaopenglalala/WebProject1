@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-size: 1em;
+  color: black;
+  background-color: #dddddd;
+}
+
+ul, li {
+  display: inline;
+}
+
+nav {
+  top: 0;
+  position: fixed;
+  background-color: rgba(70, 70, 70, 0.7);
+  height: 65px;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav a ,#account{
+  display: block;
+  height: 65px;
+  line-height: 65px;
+  padding: 0 1%;
+  float: left;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  font-family: "微软雅黑", serif;
+  transition-duration: 0.5s;
+}
+
+nav img {
+  float: left;
+  height: 150%;
+}
+
+a#account {
+  display: block;
+  float: right;
+  margin-right: 50px;
+}
+
+div#hot_img {
+  text-align: center;
+}
+
+#hot_img img {
+  width: 85%;
+  border: 10px solid;
+  border-color: rgba(0, 0, 0, 0.7);
+  margin-top: 8%;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
+}
+
+#center {
+  margin: 3%;
+  vertical-align: text-top;
+  font-size: 3.5em;
+  color: black;
+}
+
+#center a:not(#more) {
+  color: black;
+  text-decoration: none;
+  font-size: 0.5em;
+  padding: 10px 20px;
+  margin-left: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+  background-color: rgba(128, 128, 128, 0.7);
+  border-radius: 40px;
+}
+
+#more {
+  float: right;
+  color: black;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+
+#more:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+#favorite-photo {
+  margin: 100px 0 0 0;
+  width: 100%;
+}
+
+#favorite-photo table {
+  width: 70%;
+  margin: auto;
+  border-spacing: 0;
+  border-radius: 10px;
+}
+
+#favorite-photo tr:nth-of-type(odd) {
+  background-color: #fff176;
+}
+
+#favorite-photo tr:nth-of-type(even) {
+  background-color:#80deea ;
+}
+
+#favorite-photo td{
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#favorite-photo td a.photo-link{
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+#favorite-photo td a.title-link h1{
+  margin: 0;
+}
+
+#favorite-photo td p{
+  line-height: 1.2em;
+  height:3.6em;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+
+#favorite-photo td input[name="delete"] {
+  outline: 0;
+  display: inline-block;
+  margin: 5% 0;
+  padding: 0.5em 1em;
+  border: none;
+  color: white;
+  font-size: 0.8em;
+  border-radius: 8px;
+  background-color: #ef5350;
+  cursor: pointer;
+}
+
+#favorite-photo ul {
+  margin: 1% 15%;
+  padding: 2%;
+  background: #e0f7fa;
+  text-align: center;
+}
+
+#favorite-photo li{
+  display: inline;
+}
+
+#favorite-photo ul li a {
+  display: inline-block;
+  margin: 0 1% 0 0;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5em;
+  color: #777;
+  text-decoration: none;
+  border: 2px solid #999;
+  transition-duration: 0.5s;
+}
+
+#favorite-photo ul li a:hover {
+    color: white;
+    background-color: #2196f3;
+    border-color: transparent;
+}
+
+#favorite-photo ul li a#selected{
+  color: white;
+  background-color: #2196f3;
+  border-color: transparent;
+}
+
+
+
+#favorite-photo ul span a {
+  margin-right: 1%;
+  font-size: 1.5em;
+  text-decoration: none;
+}

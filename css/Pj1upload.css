@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-size: 1em;
+  color: black;
+}
+
+nav ul, nav li {
+  display: inline;
+}
+
+nav {
+  top: 0;
+  position: fixed;
+  background-color: rgba(70, 70, 70, 0.7);
+  height: 65px;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav a, div#account {
+  display: block;
+  height: 65px;
+  line-height: 65px;
+  padding: 0 1%;
+  float: left;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  font-family: "微软雅黑", serif;
+  transition-duration: 0.5s;
+}
+
+nav img {
+  float: left;
+  height: 150%;
+}
+
+div#account {
+  float: right;
+  margin-right: 25px;
+}
+
+#my-account {
+  position: fixed;
+  text-align: center;
+  display: none;
+  top: 65px;
+  right: 40px;
+  width: 120px;
+  border-radius: 0 0 5px 5px;
+  background-color: rgba(65, 65, 65, 0.5);
+}
+
+#my-account a {
+  float: none;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px 10px;
+}
+
+nav li :hover, #account :hover {
+  background-color: rgba(65, 65, 65, 0.5);
+}
+
+form {
+  margin: 120px 8% 0 8%;
+}
+
+table {
+  width: 100%;
+  border: 5px solid gray;
+  border-radius: 15px;
+  text-align: center;
+  border-spacing: 0;
+}
+
+tr:nth-of-type(odd) {
+  background-color: rgb(190, 190, 190);
+}
+
+tr:nth-of-type(even) {
+  background-color: rgb(220, 220, 220);
+}
+
+td {
+  padding: 5px;
+}
+
+td.name {
+  width: 20%;
+  font-size: 2em;
+}
+
+td.input {
+  width: 80%;
+}
+
+input ,textarea {
+  outline: 0;
+  width: 96%;
+  margin: 1% 0;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  border: 1px solid transparent;
+}
+
+input:focus ,textarea:focus{
+  border: 1px solid blue;
+}
+
+input[type="submit"] {
+  width: 50%;
+  font-size: 2em;
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #64b5f6;
+  transform: scale(1.1);
+}

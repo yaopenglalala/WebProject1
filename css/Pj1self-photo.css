@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-size: 1em;
+  color: black;
+}
+
+#show-photo {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#show-photo div {
+  font-size: 1.5em;
+  width: 100%;
+}
+
+#show-photo label {
+  display: inline-block;
+  width: 20%;
+  margin: 1%;
+  background: #eee;
+  font-size: 1.5em;
+  color: gray;
+  padding: 0.3em;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+#show-photo input[type="radio"]:checked+label {
+  background-color: #7986cb;
+  color: white;
+}
+
+#show-photo [type="radio"] {
+  display: none;
+}
+
+#show-photo table {
+margin: auto;
+  width: 70%;
+  border: 2px solid #aaa;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 2em;
+  border-spacing: 0;
+}
+
+#show-photo th {
+  padding: 2% 0;
+}
+
+#show-photo tr:nth-of-type(odd) {
+  background-color: rgb(250, 250, 250);
+  ;
+}
+
+#show-photo tr:nth-of-type(even) {
+  background-color: #e1f5fe;
+}
+
+#show-photo td.time{
+  font-style: italic;
+}
+
+#show-photo td a.photo-link {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 150px;
+  padding: 10px;
+}
+
+#show-photo td a.title-link {
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#show-photo td input{
+  outline: 0;
+  display: inline-block;
+  margin: 5% 0;
+  padding: 0.5em 1em;
+  border: none;
+  color: white;
+  font-size: 0.8em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#show-photo td input[name="edit"]{
+    background-color: #64b5f6;
+}
+
+#show-photo td input[name="delete"]{
+    background-color: #ef5350;
+}
+
+#show-photo ul {
+  margin: 2% 15%;
+  padding: 2%;
+  background: #eee;
+}
+
+#show-photo li{
+  display: inline;
+}
+
+#show-photo ul li a {
+  display: inline-block;
+  margin: 0 1% 0 0;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5em;
+  color: #777;
+  text-decoration: none;
+  border: 2px solid #999;
+  transition-duration: 0.5s;
+}
+
+#show-photo ul li a:hover {
+    color: white;
+    background-color: #2196f3;
+    border-color: transparent;
+}
+
+#show-photo ul li a#selected{
+  color: white;
+  background-color: #2196f3;
+  border-color: transparent;
+}
+
+#show-photo ul span a {
+  margin-right: 1%;
+  font-size: 1.5em;
+  text-decoration: none;
+}

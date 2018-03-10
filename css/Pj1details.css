@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-style: italic;
+}
+
+#content {
+  margin: 100px 0 0 5%;
+  width: 90%;
+}
+
+#content figure {
+  margin: 0;
+  vertical-align: top;
+  display: inline-block;
+  width: 65%;
+}
+
+#content figure img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#content aside {
+  margin: 5%;
+  width: 20%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
+#content aside .add-favorite {
+  margin: 10% 5%;
+  padding: 5%;
+  font-size: 2em;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+#content aside .favorite {
+  margin: 10% 5%;
+  font-size: 1.5em;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+#content aside .favorite p {
+  font-size: 3em;
+  margin: 1%;
+  color: red;
+}
+
+#content aside .information {
+  padding: 0;
+  margin: 10% 5%;
+  list-style: none;
+  font-size: 1.5em;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+#content aside h2 {
+  margin: 0;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+#content p.description{
+  border: 1px solid #00bcd4;
+  overflow: hidden;
+  word-wrap: break-word;
+}
